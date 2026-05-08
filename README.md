@@ -1,17 +1,17 @@
-# سیستم تشخیص و یادگیری رنگ با ESP32
+# Color Detection and Learning System with ESP32
 
-## معرفی
-در این پروژه یک سیستم نهفته مبتنی بر ESP32 طراحی شده است که با استفاده از سنسور رنگ TCS34725، رنگ‌ها را تشخیص می‌دهد و امکان یادگیری نمونه‌های جدید را دارد. مدل روی سرور Python آموزش داده می‌شود و نسخه جدید از طریق Wi-Fi به صورت OTA روی دستگاه به‌روزرسانی می‌شود.
+## Introduction
+This project implements an embedded system based on the ESP32 that uses the TCS34725 color sensor to detect colors and supports learning new color samples. The model is trained on a Python server, and updated model versions are delivered to the device via Wi-Fi using OTA updates.
 
-## امکانات
-- ارتباط I2C با سنسور TCS34725
-- دریافت و پردازش داده‌های رنگ
-- ارسال نمونه‌ها به سرور برای آموزش مدل
-- تولید و دریافت مدل TensorFlow Lite
-- به‌روزرسانی مدل از طریق OTA
-- تشخیص و نمایش رنگ در زمان اجرا
+## Features
+- I2C communication with the TCS34725 sensor
+- Reading and processing color data
+- Sending samples to the server for model training
+- Generating and receiving TensorFlow Lite models
+- Updating the model via OTA
+- Real‑time color detection and display
 
-## ابزارها و تکنولوژی‌ها
+## Tools and Technologies
 - ESP32
 - Embedded C
 - Python
